@@ -1,0 +1,110 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: curious-beams-workshop-20250131-apmc-4dstem
+  title: APMC2025 | 4D-STEM workshop
+  description: 4D-STEM simulation and analysis workshop, as taught by Georgios Varnavides at the 13th Asia Pacific Microscopy Congress 2025.
+  short_title: 4D-STEM Workshop
+  keywords:
+    - Scanning Transmission Electron Microscopy
+    - Multislice Simulation
+    - Phase Retrieval Methods
+    - Phase Contrast Imaging
+    - Nanobeam Diffraction
+    - Strain and Orientation Mapping
+  github: https://github.com/curiousbeams/workshop-20250131-apmc-4dstem
+  jupyter: true
+  open_access: true
+  license: CC-BY-4.0
+  thumbnail: ./figures/prism_expansion_placeholder.png
+  date: 2025-01-31
+  requirements:
+    - 'Dockerfile'
+    - requirements.in
+  resources:
+    - 'notebooks/**/*'
+  references:
+    mystmd: https://mystmd.org/guide
+  exports:
+    - format: meca
+  exclude:
+    - README.md
+  authors:
+    - id: gvarnavides
+      name: Georgios Varnavides
+      email: gvarnavides@berkeley.edu
+      orcid: 0000-0001-8338-3323
+      affiliations:
+        - id: miller
+          department: Miller Institute for Basic Research in Science
+          institution: University of California, Berkeley
+          address: 468 Donner Lab, Berkeley, CA, USA, 94720
+          ror: 01an7q238
+      roles:
+        - Conceptualization
+        - Funding acquisition
+        - Project administration
+        - Software
+        - Validation
+        - Visualization
+        - Writing - original draft
+  funding:
+    - statement: We thank the center for microscopy and microanalysis (CMM) of the University of Queensland, Australia for sponsoring this workshop.
+      recipients:
+        - gvarnavides
+  abbreviations:
+    TEM: transmission electron microscopy
+    HRTEM: high resolution transmission electron microscopy
+    STEM: scanning transmission electron microscopy
+    4D-STEM: four dimensional scanning transmission electron microscopy
+    4DSTEM: four dimensional scanning transmission electron microscopy
+    BF: bright field
+    DF: dark field
+    HAADF: high angle annular dark field
+    FFT: fast Fourier transform
+    PCI: phase contrast imaging
+    DPC: differential phase contrast
+    SSB: single side-band
+    WDD: Wigner distribution deconvolution
+    tcBF: tilt corrected bright field
+    IAM: independent atom model
+    ASE: atomic simulation environment
+    PRISM: planewave reciprocal-space interpolated scattering matrix
+    CBED: converged beam electron diffraction
+    PACBED: position averaged converged beam electron diffraction
+    PED: precession electron diffraction
+  toc:
+    - file: index.md
+    - file: 01_scanning_transmission_electron_microscopy.md
+    - title: Electron Scattering Principles & Inputs
+      children:
+        - file: 02_atomic_models.md
+        - file: 03_scattering_potentials.md
+        - file: 04_electron_wavefunctions.md
+    - title: Electron Scattering Algorithms
+      children:
+        - file: 05_multislice_algorithm.md
+        - file: 06_prism_algorithm.md
+        - file: 07_bloch_wave_algorithm.md
+        - file: 08_detectors_phonons.md
+    - title: Phase Retrieval Reconstructions
+      children:
+        - file: 09_phase_problem.md
+        - file: 10_differential_phase_contrast.md
+        - file: 11_parallax.md
+        - file: 12_direct_ptychography.md
+        - file: 13_iterative_ptychography.md
+    - title: Nanobeam Analysis
+      children:
+        - file: 14_strain_orientation.md
+    - title: Notebooks
+      children:
+        - title: Interactive Widgets
+          children:
+            - pattern: notebooks/*.ipynb
+        - title: Try it Yourself!
+          children:
+            - pattern: notebooks/try-it-yourself/*.ipynb
+    
+site:
+  template: book-theme
