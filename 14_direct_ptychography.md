@@ -58,6 +58,6 @@ Try playing around with the sliders to see if you can recover the residual aberr
 :::
 
 ```{attention} Try it yourself!
-Click the following badges to try three complete notebooks on Colab:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/04.direct_ptychography_01.ipynb), [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/05.direct_ptychography_02.ipynb), and [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/06.direct_ptychography_03.ipynb)
+Sections 1 to 5 of the `quantEM` workflow notebook cover calibration, virtual imaging, and direct ptychography on an experimental gold nanoparticle dataset, including the hyperparameter search and reconstruction refinement:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/quantem_XX_ptycho_experimental_workflow.ipynb) **Gold nanoparticle reconstruction in `quantEM`**
 ```

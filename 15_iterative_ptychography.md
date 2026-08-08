@@ -56,6 +56,8 @@ Depending on the type of assumptions we make for the scattering physics, we are 
 :::
 
 ```{attention} Try it yourself!
-Click the following badges to try a complete notebook on Colab:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/07.iterative_ptychography_01.ipynb) and [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/11.phase_retrieval_01.ipynb)
+Section 6 of the `quantEM` workflow notebook runs an iterative `PtychoLite` reconstruction of the same gold nanoparticle dataset, and section 7 compares it against the direct result:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/quantem_XX_ptycho_experimental_workflow.ipynb) **Gold nanoparticle reconstruction in `quantEM`**
+
+This notebook wants a GPU: in Colab, **Runtime → Change runtime type → T4 GPU**.
 ```

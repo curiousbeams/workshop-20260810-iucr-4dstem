@@ -84,6 +84,6 @@ Disk detection with a bullseye probe: the patterned template cross-correlates sh
 Two derived quantities are worth computing routinely: the **strain dilation** $\varepsilon_{xx} + \varepsilon_{yy}$, which isolates the volumetric part and is insensitive to the choice of in-plane axes, and **strain statistics over segmented regions**, for example comparing precipitates against the surrounding matrix in irradiated alloys {cite:p}`10.1016/j.actamat.2025.121095`.
 
 ```{attention} Try it yourself!
-Run the full workflow from vacuum probe to strain maps, including the descan, ellipticity, and rotation calibrations:  
-▶️ [Strain mapping of a partially cycled LiFePO₄ battery cathode](https://drive.google.com/file/d/1aQaRR-XZzCZayfYsSDVuz7prLeolsVKI/view?usp=drive_link)
+Run the full workflow from vacuum probe to strain maps, including the descan, ellipticity, and rotation calibrations, on a partially cycled Li$_x$FePO$_4$ battery cathode:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/py4dstem_02_strain_LFP.ipynb) **Strain mapping of a battery cathode particle**
 ```

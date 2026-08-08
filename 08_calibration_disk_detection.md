@@ -42,7 +42,7 @@ This is what makes detection tractable: we already know the shape we are looking
 
 :::{figure} #app:nanobeam_disk_detection
 :name: fig_disk_detection
-Bragg disk detection on a simulated nanobeam dataset, using the same Au nanoparticle as [](#fig_dpc) but at a 10 mrad convergence semi-angle. Move the cursor over the left panel to place the probe; the middle panel shows the resulting diffraction pattern (or the probe template), and the right panel the cross-correlogram with detected peaks circled. Vary the hyperparameters and watch peaks appear and disappear.
+Bragg disk detection on a simulated nanobeam dataset, using the same Au nanoparticle as [](#fig_dpc) but at a 5 mrad convergence semi-angle. Move the cursor over the left panel to place the probe; the middle panel shows the resulting diffraction pattern (or the probe template), and the right panel the cross-correlogram with detected peaks circled. Vary the hyperparameters and watch peaks appear and disappear.
 :::
 
 The three hyperparameters that matter most:
@@ -108,6 +108,6 @@ It provides the template for disk detection, measures the convergence angle, and
 :::
 
 ```{attention} Try it yourself!
-Load, browse, and virtually image a simulated polycrystalline Au dataset, then run your first disk detection:  
-▶️ [py4DSTEM basics: 4D-STEM data & Bragg disk detection](https://drive.google.com/file/d/13YClaGiPYZFIyKlHZNIqNVq-IWRGgiwm/view?usp=drive_link)
+Load, browse, and virtually image a simulated polycrystalline gold dataset, then run your first disk detection:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/py4dstem_01_basics_disk_detection.ipynb) **py4DSTEM basics: 4D-STEM data and Bragg disk detection**
 ```

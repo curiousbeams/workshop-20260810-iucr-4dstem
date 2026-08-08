@@ -58,8 +58,3 @@ Toggling "show reconstruction" reveals the reconstruction gradient $\vec{CoM}(\b
 Two controls are worth exploring in [](#fig_dpc).
 The **convergence semi-angle** sets the probe size, and therefore the spatial resolution of the reconstruction: too small and the probe cannot resolve the atomic columns, too large and the CoM shift within the disk becomes hard to interpret.
 The **dose** slider adds Poisson shot noise. CoM imaging is remarkably dose-efficient, and the reconstructed potential survives to surprisingly low doses, which is exactly why the technique matters for beam-sensitive samples.
-
-```{attention} Try it yourself!
-Click the following badge to try a complete notebook on Colab:  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/01.dpc_01.ipynb)
-```

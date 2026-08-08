@@ -40,7 +40,7 @@ At the end of each module you will find a box like this:
 
 ```{attention} Try it yourself!
 Click the following badge to try a complete notebook on Colab:  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/py4dstem_01_basics_disk_detection.ipynb)
 ```
 
 Clicking the badge opens the notebook in Colab in a new tab.

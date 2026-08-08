@@ -92,9 +92,9 @@ This is a general and rather crystallographic point. When the phases you are try
 - **ACOM gives you strain for free.** The distortion between each measured pattern and its best-matched simulation yields a per-phase strain map, with no manual choice of basis vectors, and it works in polycrystals where a single reference lattice would be meaningless.
 
 ```{attention} Try it yourself!
-ACOM on a two-phase Ti alloy, with phase quantification and strain extracted directly from the matched patterns:  
-▶️ [Phase, orientation & strain of a two-phase Ti alloy](https://drive.google.com/file/d/1_DaUuEqq5vx_1ZM5R7zChEo7iA_ccprC/view?usp=drive_link)
+Two notebooks for this session. Start with the single-phase case, then the capstone:
 
-Or run the repository notebooks on Colab:  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/09.strain_orientation_mapping_01.ipynb) and [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/10.strain_orientation_mapping_02.ipynb) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/py4dstem_03_orientation_AuAgPd.ipynb) **ACOM of AuAgPd nanowires**: build an orientation plan from a reference structure, match every pattern, and read the resulting orientation map.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/py4dstem_04_phase_orientation_strain_Ti.ipynb) **Orientation, phase, and strain of a two-phase titanium alloy**: two candidate structures (α-Ti and β-Ti), phase mapping from the correlation scores, and strain extracted directly from the matched patterns.
 ```
