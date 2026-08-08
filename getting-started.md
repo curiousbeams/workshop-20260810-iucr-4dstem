@@ -25,13 +25,9 @@ The notebooks that generate them are in the [Interactive Widgets](./notebooks/01
 When you first load a page, each live figure shows a static placeholder image so that the page is useful even offline.
 To make it interactive:
 
-1. Click the **compute (⚡) button** in the toolbar at the top-right of the page.
-2. Choose to launch a Jupyter server. This spins up a cloud kernel via [Binder](https://mybinder.org), built from the `Dockerfile` and `requirements.in` in this repository, so the environment matches ours exactly.
+1. Click the **compute button** on each figure.
+2. This spins up a cloud kernel via [Binder](https://mybinder.org), built from the `Dockerfile` and `requirements.in` in this repository, so the environment matches ours exactly.
 3. Wait for the connection indicator to turn green, then press the run button on a figure. The placeholder is replaced by the live widget.
-
-:::{note} Be patient the first time
-Starting a Binder kernel takes a couple of minutes, and it has to ship the simulation datasets with it. Start it at the beginning of a session rather than when you need it. If a kernel goes idle and disconnects, just launch it again, nothing is lost.
-:::
 
 Once a figure is live, the sliders, toggles and click-to-position controls actually re-run the underlying simulation or reconstruction.
 This is the whole point: rather than showing you a figure of what happens when the convergence angle doubles, we change it and look.

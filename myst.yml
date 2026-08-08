@@ -50,24 +50,27 @@ project:
         - Visualization
         - Writing - original draft
     - id: sribet
-      name: Stephanie Ribet
-      # TODO: confirm ORCID and preferred affiliation string
+      name: Stephanie M Ribet
+      email: sribet@lbl.gov
+      orcid: 0000-0002-7117-066X
       affiliations:
         - id: ncem
           department: National Center for Electron Microscopy, Molecular Foundry
-          institution: Lawrence Berkeley National Laboratory
-          address: Berkeley, CA, USA, 94720
+          institution: Berkeley National Laboratory
+          address: 67 Cyclotron Rd, Berkeley, CA 94720, USA
+          ror: 02jbv0t02
       roles:
         - Conceptualization
         - Project administration
         - Software
         - Validation
+        - Visualization
         - Writing - review & editing
   funding:
-    # TODO: replace with the IUCr 2026 sponsor acknowledgement
     - statement: We thank the International Union of Crystallography for hosting this workshop.
       recipients:
         - gvarnavides
+        - sribet
   abbreviations:
     TEM: transmission electron microscopy
     HRTEM: high resolution transmission electron microscopy
@@ -125,9 +128,9 @@ project:
         - file: 13_parallax.md
         - file: 14_direct_ptychography.md
         - file: 15_iterative_ptychography.md
-    - title: Extra Material
-      children:
-        - file: A1_bloch_wave_algorithm.md
+    # - title: Extra Material
+    #   children:
+    #     - file: A1_bloch_wave_algorithm.md
     - title: Notebooks
       children:
         - title: Interactive Widgets
