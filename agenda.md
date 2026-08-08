@@ -25,3 +25,4 @@ numbering:
 
 - Each session pairs interactive figures on this site with a hands-on Colab notebook. The interactive figures are walked through together; the notebooks are yours to run at your own pace, during the session and afterwards.
 - The room has WiFi, but it may not support large simultaneous downloads. The Colab notebooks fetch their datasets on Google's side, so this mostly matters for opening the notebooks themselves. Opening them at the start of each session helps.
+- Lunch and coffee breaks are provided by the conference.
