@@ -15,7 +15,7 @@ numbering:
 
 ## Principle of Reciprocity
 
-In [](#bloch_wave_algorithm_page), we used the fact that off-axis pixels inside the BF disk are equivalent to tilted plane waves to calculate CBED patterns.
+A converged probe can be decomposed into a range of incident plane waves, so off-axis pixels inside the BF disk are equivalent to tilted plane-wave illumination.
 Formally, this relationship is referred to as the [principle of reciprocity](wiki:Helmholtz_reciprocity), which states that rays connecting a source to a detector follow he same optical path as the rays from the detector to the source {cite:p}`10.1016/j.micron.2016.09.007`.
 
 :::{figure} #app:hrtem_bf_stem_reciprocity

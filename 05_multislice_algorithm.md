@@ -15,7 +15,7 @@ numbering:
 Armed with our numerical scattering potentials (the "object") and our incident electron wavefunction (the "probe"), we are now ready to simulate our STEM measurements.
 
 In this section we will introduce the most popular way of simulating electron scattering experiments, the **multislice method**, introduced by {cite:t}`10.1107/S0365110X57002194`.
-In [](#bloch_wave_algorithm_page), we introduce an alternative approach better suited for periodic calculations of small unit-cells.
+An alternative approach, the Bloch-wave formalism, is better suited to periodic calculations on small unit cells; we do not cover it today, but it underpins the diffraction template libraries of [](#orientation_mapping_page).
 
 ## Scaled Schrödinger equation
 

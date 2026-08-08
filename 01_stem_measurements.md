@@ -32,6 +32,7 @@ Three ways of illuminating a specimen and collecting the scattered electrons.
 :::{figure} ./figures/schematic_dark.png
 :class: hidden dark:block
 :name: fig_stem_modes_dark
+:enumerated: false
 Three ways of illuminating a specimen and collecting the scattered electrons.
 **Left:** conventional TEM imaging mode, where parallel illumination passes through the specimen and post-specimen optics form a magnified real-space image on the detector. 
 **Middle:** diffraction mode with a near-parallel beam, where discrete diffracted beams land as sharp, well-separated spots.
@@ -39,14 +40,14 @@ Three ways of illuminating a specimen and collecting the scattered electrons.
 :::
 
 
-Traditional parallel-illumination TEM imaging, the left panel of [](#fig_stem_modes_dark), is widely used across disciplines, from high-resolution studies of frozen-hydrated biomolecules to lattice-resolved and defect imaging of materials.
+Traditional parallel-illumination TEM imaging, the left panel of [](#fig_stem_modes_light), is widely used across disciplines, from high-resolution studies of frozen-hydrated biomolecules to lattice-resolved and defect imaging of materials.
 
-STEM, in contrast, employs a converged electron probe containing a broad range of incident wave vectors, the middle and right panels of [](#fig_stem_modes_dark).
+STEM, in contrast, employs a converged electron probe containing a broad range of incident wave vectors, the middle and right panels of [](#fig_stem_modes_light).
 When this probe interacts with the specimen, it produces a diffraction pattern that encodes the local scattering.
 In this sense **STEM is inherently a diffraction-mode technique**, although real-space images can be obtained by processing the resulting position-resolved diffraction patterns, a process we will refer to as **diffractive imaging**.
 This approach routinely provides interpretable images of materials down to atomic resolution and forms the basis of modern crystallographic characterization.
 
-Notice that the middle and right panels of [](#fig_stem_modes) differ only in the convergence angle of the illumination.
+Notice that the middle and right panels of [](#fig_stem_modes_light) differ only in the convergence angle of the illumination.
 That single knob turns out to organize the whole day.
 A small convergence angle keeps the diffracted disks sharp and separated and underpins the strain and orientation mapping of [](#calibration_disk_detection_page) through [](#orientation_mapping_page).
 A large convergence angle overlaps the disks which makes the overlap regions *interfere*, encoding the phase information that the diffractive imaging methods of [](#phase_problem_page) through [](#iterative_ptycho_page) recover.

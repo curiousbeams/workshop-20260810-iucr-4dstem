@@ -48,7 +48,7 @@ To match crystalline orientations, then, we need diffraction patterns computed a
 5. **Orientation and phase maps.** The result is an orientation map, conventionally displayed with inverse-pole-figure coloring for the in-plane and out-of-plane directions, plus a per-position correlation score. Running plans for several candidate phases and comparing their correlation scores produces a **phase map** and quantitative phase-fraction estimates.
 
 :::{note} Where the simulations come back
-Steps 1 and 2 are dynamical diffraction simulation, the subject of [](#bloch_wave_algorithm_page). In practice ACOM libraries are usually computed kinematically, because a full dynamical calculation at every orientation is expensive and, as the next section explains, precession makes the experiment more kinematical anyway.
+Steps 1 and 2 are diffraction simulation of the kind we set up this morning, now run over hundreds of orientations rather than one. In practice ACOM libraries are usually computed kinematically, because a full dynamical calculation at every orientation is expensive and, as the next section explains, precession makes the experiment more kinematical anyway.
 :::
 
 ## Precession and Pattern Quality
@@ -69,7 +69,7 @@ The same effect can be simulated, which is a useful way to build intuition for h
 :::{figure} #app:blochwave_precession_py4d
 :name: fig_precession_sim
 :placeholder: ./figures/Si3N4_precession_py4DSTEM.png
-Simulated precession electron diffraction patterns as a function of precession angle, computed with the Bloch-wave machinery of [](#bloch_wave_algorithm_page).
+Simulated precession electron diffraction patterns as a function of precession angle, computed with a Bloch-wave calculation.
 :::
 
 Precession substantially improves both orientation reliability and phase discrimination, and it narrows the strain error distribution too, as we saw in [](#fig_precession_strain).
