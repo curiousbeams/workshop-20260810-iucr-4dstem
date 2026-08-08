@@ -12,7 +12,7 @@ myst build --html       # static site in _build/html
 
 ## Repository layout
 
-- `*.md` — the lecture pages, ordered to follow the [agenda](./agenda.md).
+- `*.md` — the lecture pages, ordered to follow the [agenda](./00b_agenda.md).
 - `notebooks/*.ipynb` — the notebooks behind the site's interactive figures. Each cell tagged `#| label: app:<name>` is embedded into a page via `:::{figure} #app:<name>`.
 - `notebooks/try-it-yourself/*.ipynb` — the hands-on Google Colab tutorials.
 - `notebooks/data/` — datasets shipped to the Binder image for the interactive figures.

@@ -63,15 +63,6 @@ This integrates through the rocking curve and produces more complete, more kinem
 The effect of precession: as the rocking radius increases, more reflections are excited and their intensities become more uniform, much closer to the kinematical patterns the orientation library assumes.
 :::
 
-The same effect can be simulated, which is a useful way to build intuition for how much precession you actually need.
-[](#fig_precession_sim) shows precessed patterns computed for a Si$_3$N$_4$ sample.
-
-:::{figure} #app:blochwave_precession_py4d
-:name: fig_precession_sim
-:placeholder: ./figures/Si3N4_precession_py4DSTEM.png
-Simulated precession electron diffraction patterns as a function of precession angle, computed with a Bloch-wave calculation.
-:::
-
 Precession substantially improves both orientation reliability and phase discrimination, and it narrows the strain error distribution too, as we saw in [](#fig_precession_strain).
 
 ## Phase Mapping in Hard Cases

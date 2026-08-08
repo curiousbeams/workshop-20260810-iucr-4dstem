@@ -1,0 +1,24 @@
+[project]
+name = "workshop-20260810-iucr-4dstm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "abtem>=1.0.9",
+    "ase>=3.29.0",
+    "cmasher>=1.9.2",
+    "colorspacious>=1.1.2",
+    "ipympl>=0.10.0",
+    "ipywidgets>=8.1.8",
+    "jupyterlab>=4.5.3",
+    "jupyterlab-myst>=2.6.0",
+    "matplotlib>=3.10.8",
+    "numba>=0.63.1",
+    "numpy>=1.26.4",
+    "py4dstem>=0.14.18",
+    "temgymlite",
+]
+
+[tool.uv.sources]
+temgymlite = { url = "https://raw.githubusercontent.com/gvarnavi/TemGymLite/main/dist/temgymlite-0.6.0.0-py3-none-any.whl" }

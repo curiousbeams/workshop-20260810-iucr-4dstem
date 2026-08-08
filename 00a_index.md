@@ -21,7 +21,7 @@ Designed for crystallographers and microscopists at all levels, the workshop req
 ## Practical Information
 
 This is a **one-day workshop** on **Monday, 10 August 2026**, at the 2026 congress of the International Union of Crystallography.
-See the [agenda](./agenda.md) for the detailed schedule.
+See the [agenda](./00b_agenda.md) for the detailed schedule.
 
 
 :::{admonition} Requirements for all participants
@@ -40,5 +40,5 @@ The workshop uses two complementary media:
 - **This website** is the lecture material. Most figures are *live*: they run real simulation and analysis code, so we can vary a convergence angle or a dose and watch the physics respond. We walk through these together during each session.
 - **Google Colab notebooks**, linked from a "Try it yourself!" box at the end of each module, are the hands-on material. These are complete, self-contained analysis workflows on real and simulated datasets.
 
-Use the sidebar or the [agenda](./agenda.md) to jump to a module.
-The [software ecosystem](./software-ecosystem.md) page introduces the open-source packages used throughout, namely `py4DSTEM`, `abTEM`, and `quantEM`.
+Use the sidebar or the [agenda](./00b_agenda.md) to jump to a module.
+The [software ecosystem](./00d_software-ecosystem.md) page introduces the open-source packages used throughout, namely `py4DSTEM`, `abTEM`, and `quantEM`.

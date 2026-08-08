@@ -1,13 +1,14 @@
 # slim uv base image
-FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim
+FROM python:3.12-slim-bookworm
+COPY --from=ghcr.io/astral-sh/uv /uv /uvx /bin/
 
 # uv optimization env variables
 ENV UV_COMPILE_BYTECODE=1
 ENV UV_SYSTEM_PYTHON=1
 
 # install deps (system is safe, already isolated)
-COPY ./requirements.in .
-RUN uv pip install -r requirements.in
+COPY ./requirements.txt .
+RUN uv pip install -r requirements.txt
 
 # create user with a home directory for binder
 ARG NB_USER

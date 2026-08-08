@@ -1,6 +1,6 @@
 ---
 title: Interactive Python Computing
-short_title: Getting Started
+short_title: Interactive Computing
 label: getting_started_page
 numbering:
   heading_2: false

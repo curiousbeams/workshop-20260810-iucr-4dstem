@@ -14,14 +14,18 @@ project:
     - Phase Retrieval Methods
     - Phase Contrast Imaging
   github: https://github.com/curiousbeams/workshop-20260810-iucr-4dstem
-  jupyter: true
+  # jupyter: true
+  jupyter:
+    server:
+      url: 'http://localhost:8888'
+      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
   open_access: true
   license: CC-BY-4.0
   thumbnail: ./figures/prism_expansion_placeholder.png
   date: 2026-08-10
   requirements:
     - 'Dockerfile'
-    - requirements.in
+    - requirements.txt
   resources:
     - 'notebooks/**/*'
   references:
@@ -99,13 +103,13 @@ project:
     IPF: inverse pole figure
     DDF: digital dark field
   toc:
-    - file: index.md
-    - file: agenda.md
+    - file: 00a_index.md
+    - file: 00b_agenda.md
     - title: Getting Started
       children:
-        - file: getting-started.md
-        - file: software-ecosystem.md
-    - title: S/TEM Principles
+        - file: 00c_getting-started.md
+        - file: 00d_software-ecosystem.md
+    - title: STEM Principles
       children:
         - file: 01_stem_measurements.md
         - file: 02_atomic_models.md

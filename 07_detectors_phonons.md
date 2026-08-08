@@ -9,15 +9,9 @@ numbering:
 :::{admonition} Learning goals
 :class: tip
 - Configure custom, line, and grid scans in abTEM.
-- Compare monolithic (BF, MAADF, HAADF) and pixelated detectors, and post-process the latter.
+- Compare monolithic and pixelated detectors, and post-process the latter.
 - Include shot noise and thermal atomic displacements via frozen phonons.
 :::
-
-```{note} Credit
-
-This section in particular is generously inspired from the `abtem` walkthrough guide found [here](https://abtem.readthedocs.io/en/latest/user_guide/walkthrough/scan_and_detect.html).
-
-```
 
 ## Scanning Simulations
 
