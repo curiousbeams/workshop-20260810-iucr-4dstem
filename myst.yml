@@ -132,9 +132,6 @@ project:
         - file: 13_parallax.md
         - file: 14_direct_ptychography.md
         - file: 15_iterative_ptychography.md
-    # - title: Extra Material
-    #   children:
-    #     - file: A1_bloch_wave_algorithm.md
     - title: Notebooks
       children:
         - title: Interactive Widgets
