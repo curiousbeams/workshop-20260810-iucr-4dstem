@@ -5,6 +5,13 @@ numbering:
   enumerator: 2.%s
 ---
 
+:::{admonition} Learning goals
+:class: tip
+- Build atomic models with ASE and orthogonalize them for simulation.
+- Tile a unit cell into a supercell, and know when the cell needs to be orthogonal.
+- Recognize how the projected potential changes with thickness and zone axis.
+:::
+
 As we saw in [](#stem_measurements_page), the first step in simulating STEM measurements is to specify the electrostatic scattering potential of the sample.
 In the simplest case we will consider in [](#scattering_potentials_page), namely the independent atom model (IAM), this is fully specified by the coordinates and chemical symbols of the atoms in the sample.
 

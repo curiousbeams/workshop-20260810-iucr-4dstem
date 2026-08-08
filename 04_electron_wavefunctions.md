@@ -5,6 +5,13 @@ numbering:
   enumerator: 4.%s
 ---
 
+:::{admonition} Learning goals
+:class: tip
+- Construct a converged probe from an aperture and an aberration function.
+- Relate the polar aberration expansion to the contrast transfer function and the point spread function.
+- Predict how the convergence angle and defocus reshape the probe in real and reciprocal space.
+:::
+
 Armed with a numerical representation of our atomic model's scattering potentials, we turn our attention to the second ingredient of simulating STEM measurements, shown in the middle panel of [](#fig_stem_measurements), the electron wavefunction $\psi(\bm{k})$ incident on the sample.
 
 In typical STEM operation, we try to use the objective lens to form the **smallest possible probe**.

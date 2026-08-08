@@ -5,6 +5,13 @@ numbering:
   enumerator: 3.%s
 ---
 
+:::{admonition} Learning goals
+:class: tip
+- Trace the independent atom model potential from the Schrodinger equation through the Born approximation and the Mott-Bethe relation.
+- Understand what a parametrization of the scattering factors buys you.
+- Choose real- and reciprocal-space sampling for a numerical potential grid.
+:::
+
 ## Independent atom model
 
 We can use the collection of atoms we defined in [](#atomic_models_page) to compute the electrostatic scattering potential an incident electron wavefunction experiences as it traverses the sample.

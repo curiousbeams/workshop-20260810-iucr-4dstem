@@ -5,6 +5,12 @@ numbering:
   enumerator: 6.%s
 ---
 
+:::{admonition} Learning goals
+:class: tip
+- Explain the planewave expansion of the probe and the linearity of the multislice operator.
+- Understand the PRISM interpolation factor and the speed/accuracy trade-off it controls.
+:::
+
 In [](#multislice_algorithm_page) we introduced a very powerful and flexible algorithm for performing electron scattering simulations.
 Multislice STEM simulations, however, can be very computationally expensive since the converged electron probe needs to be transmitted/propagated at each scan position.
 In this section, we introduce an alternative formalism called planewave reciprocal-space interpolated scattering matrix (PRISM), which can achieve a significant speedup at a minor cost to accuracy {cite:p}`10.1186/s40679-017-0046-1`.

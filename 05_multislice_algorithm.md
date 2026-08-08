@@ -5,6 +5,13 @@ numbering:
   enumerator: 5.%s
 ---
 
+:::{admonition} Learning goals
+:class: tip
+- Derive the multislice algorithm as alternating transmission and Fresnel propagation.
+- Choose a slice thickness and a grid sampling, and know what breaks when you get them wrong.
+- Follow a probe through a specimen slice by slice.
+:::
+
 Armed with our numerical scattering potentials (the "object") and our incident electron wavefunction (the "probe"), we are now ready to simulate our STEM measurements.
 
 In this section we will introduce the most popular way of simulating electron scattering experiments, the **multislice method**, introduced by {cite:t}`10.1107/S0365110X57002194`.
