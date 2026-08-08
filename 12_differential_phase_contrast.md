@@ -47,11 +47,22 @@ V(\bm{R}) = \mathbb{R}\left\{\mathcal{F}_{\bm{k}\rightarrow\bm{R}}^{-1} \left[ \
 
 where $\mathbb{R}\left\{\cdot \right\}$ denotes taking the real-part of the complex-valued expression.
 
-[](#fig_dpc) illustrates the above steps interactively by slowing accumulating the $\vec{CoM}(\bm{R})$ arrays.
+[](#fig_dpc) illustrates the above steps interactively on a gold nanoparticle.
+Move the cursor over the left panel to place the probe and watch the CoM crosshairs in the diffraction pattern track the local potential gradient.
+Toggling "show reconstruction" reveals the reconstruction gradient $\vec{CoM}(\bm{R})$ accumulated over the full scan, and "integrate gradient" applies [](#fourier_integration) to recover the projected potential itself.
+
+```{figure} #app:center_of_mass_imaging
+:name: fig_dpc
+```
+
+Two controls are worth exploring in [](#fig_dpc).
+The **convergence semi-angle** sets the probe size, and therefore the spatial resolution of the reconstruction: too small and the probe cannot resolve the atomic columns, too large and the CoM shift within the disk becomes hard to interpret.
+The **dose** slider adds Poisson shot noise. CoM imaging is remarkably dose-efficient, and the reconstructed potential survives to surprisingly low doses, which is exactly why the technique matters for beam-sensitive samples.
 
 ```{figure} #app:dpc-sto
-:name: fig_dpc
+:name: fig_dpc_sto
 :placeholder: ./figures/dpc_sto_placeholder.png
+The same accumulation shown for a crystalline STO [100] sample, stepping the probe along the scan.
 ```
 
 ```{attention} Try it yourself!

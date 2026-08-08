@@ -42,8 +42,7 @@ This is what makes detection tractable: we already know the shape we are looking
 
 :::{figure} #app:nanobeam_disk_detection
 :name: fig_disk_detection
-:placeholder: ./figures/nanobeam_disk_detection_placeholder.png
-Bragg disk detection on a simulated nanobeam dataset. The left panel shows the probe position on the sample, the middle panel the diffraction pattern at that position, and the right panel the cross-correlogram with detected peaks overlaid. Vary the detection hyperparameters to see peaks appear and disappear.
+Bragg disk detection on a simulated nanobeam dataset, using the same Au nanoparticle as [](#fig_dpc) but at a 10 mrad convergence semi-angle. Move the cursor over the left panel to place the probe; the middle panel shows the resulting diffraction pattern (or the probe template), and the right panel the cross-correlogram with detected peaks circled. Vary the hyperparameters and watch peaks appear and disappear.
 :::
 
 The three hyperparameters that matter most:
