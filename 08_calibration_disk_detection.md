@@ -42,7 +42,8 @@ This is what makes detection tractable: we already know the shape we are looking
 
 :::{figure} #app:nanobeam_disk_detection
 :name: fig_disk_detection
-Bragg disk detection on a simulated nanobeam dataset, using the same Au nanoparticle as [](#fig_dpc) but at a 5 mrad convergence semi-angle. Move the cursor over the left panel to place the probe; the middle panel shows the resulting diffraction pattern (or the probe template), and the right panel the cross-correlogram with detected peaks circled. Vary the hyperparameters and watch peaks appear and disappear.
+:placeholder: ./figures/bragg_disk_detection_placeholder.png
+Bragg disk detection on a simulated nanobeam dataset, a gold nanoparticle illuminated at a 5 mrad convergence semi-angle. Move the cursor over the left panel to place the probe; the middle panel shows the resulting diffraction pattern (or the probe template), and the right panel the cross-correlogram with detected peaks circled. Vary the hyperparameters and watch peaks appear and disappear.
 :::
 
 The three hyperparameters that matter most:
