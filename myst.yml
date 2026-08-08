@@ -47,7 +47,6 @@ project:
           ror: 01an7q238
       roles:
         - Conceptualization
-        - Funding acquisition
         - Project administration
         - Software
         - Validation
@@ -69,7 +68,7 @@ project:
         - Software
         - Validation
         - Visualization
-        - Writing - review & editing
+        - Writing - original draft
   funding:
     - statement: We thank the International Union of Crystallography for hosting this workshop.
       recipients:
