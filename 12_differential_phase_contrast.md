@@ -54,6 +54,7 @@ Toggling "show reconstruction" reveals the reconstruction gradient $\vec{CoM}(\b
 ```{figure} #app:center_of_mass_imaging
 :name: fig_dpc
 :placeholder: ./figures/icom_placeholder.png
+
 Center-of-mass imaging of a gold nanoparticle. The left panel shows the complex exit wave over the sample, the middle panel the diffraction pattern at the probe position with the CoM marked by crosshairs, and the right panel the reconstruction accumulated over the full scan, either as the CoM gradient field or integrated into the projected potential.
 ```
 

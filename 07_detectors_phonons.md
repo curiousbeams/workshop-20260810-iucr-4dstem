@@ -53,7 +53,7 @@ Monolithic detector integration regions.
 
 [](#detectors_line_fig) plots the result of detecting the exit wave along our line scan using these various monolithic detectors.
 Note that:
-- in-between atomic columns, $\left|R\right|\sim 1.5\AA$, the detected bright field intensity is almost unity, suggesting the direct beam passes by without scattering.
+- in-between atomic columns, $\left|R\right|\sim 1.5\,\text{\AA}$, the detected bright field intensity is almost unity, suggesting the direct beam passes by without scattering.
 - Over atomic columns, $\left|R\right|=0$, the bright field intensity drops by ~8%.
   - This intensity if mostly transferred to the middle-angle annular dark field detector.
 - The signal in the high-angle annular detector is the easiest to interpet
@@ -96,7 +96,7 @@ What we have plotted so far can thus be interpeted as "infinite dose" simulation
 
 Real experiments are of-course performed at finite electron dose, and will thus contain [](wiki:Shot_noise).
 It is important to include these effects by drawing random samples from a Poisson distribution for each detector pixel.
-[](#detectors_pixelated_postprocessed_fig) shows example "noisy" diffraction patterns for a finite electron dose per area of $10^5\, \mathrm{e}^-/\AA^2$.
+[](#detectors_pixelated_postprocessed_fig) shows example "noisy" diffraction patterns for a finite electron dose per area of $10^5\, \mathrm{e}^-/\text{\AA}^2$.
 
 ```{figure} #app:detectors_pixelated_postprocessed
 :label: detectors_pixelated_postprocessed_fig
@@ -117,7 +117,7 @@ Here, we demonstrate a simple yet accurate model called "frozen phonons", which 
 Displaced atomic configuration of STO [100].
 ```
 
-[](#phonons_configurations_fig) illustrates one such configuration for 48 layers of STO [100], where each atom is randomly displaced with a standard deviation of $0.1\AA$.
+[](#phonons_configurations_fig) illustrates one such configuration for 48 layers of STO [100], where each atom is randomly displaced with a standard deviation of $0.1\,\text{\AA}$.
 Each displaced configuration produces its own scattering potential, shown in [](#phonons_potentials_fig).
 
 ```{figure} #app:phonons_potentials
