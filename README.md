@@ -2,6 +2,8 @@
 
 Converged probe electron diffraction workshop — nanobeam 4D-STEM analysis and diffractive imaging phase retrieval — as taught by Georgios Varnavides and Stephanie Ribet at the 2026 congress of the International Union of Crystallography, 10 August 2026.
 
+Published at <https://cbl.curve.space/articles/curious-beams-workshop-20260810-iucr-4dstem>.
+
 ## Building the site
 
 ```bash
@@ -9,6 +11,8 @@ npm install -g mystmd   # or: pip install mystmd
 myst start              # local dev server with live reload
 myst build --html       # static site in _build/html
 ```
+
+Pushes are deployed to Curvenote by the workflows in `.github/workflows/`.
 
 ## Repository layout
 
@@ -18,9 +22,16 @@ myst build --html       # static site in _build/html
 - `notebooks/data/` — datasets shipped to the Binder image for the interactive figures.
 - `figures/` — static placeholder images shown before a live figure is computed.
 
-## Outstanding work
+## Hands-on notebooks
 
-- `notebooks/08.calibration-disk-detection.ipynb` and `notebooks/12.center-of-mass-imaging.ipynb` are new and have not been executed. Run them and commit the outputs, then render `figures/nanobeam_disk_detection_placeholder.png` and add `:placeholder:` back to the corresponding figure directives.
-- The hands-on notebooks for the quantEM phase-retrieval sessions still need to be adapted from [`electronmicroscopy/quantem-tutorials`](https://github.com/electronmicroscopy/quantem-tutorials), including hosting Colab-sized copies of their datasets.
-- There is no abTEM hands-on notebook for the multislice session yet.
-- `myst.yml` has TODOs for Stephanie Ribet's ORCID and the IUCr funding statement.
+Each notebook downloads its own dataset from Google Drive with `gdown`, so participants need only a Google account.
+
+| Notebook | Session |
+| --- | --- |
+| `py4dstem_01_basics_disk_detection` | Calibration and Bragg disk detection |
+| `py4dstem_02_strain_LFP` | Strain mapping |
+| `py4dstem_03_orientation_AuAgPd` | Orientation mapping |
+| `py4dstem_04_phase_orientation_strain_Ti` | Orientation mapping (capstone) |
+| `quantem_01_direct_ptychography_kernels` | Direct phase retrieval |
+| `quantem_02_hyperparameter_optimization` | Direct phase retrieval |
+| `quantem_03_ptycho_experimental_workflow` | Iterative phase retrieval (needs a T4 GPU runtime) |
