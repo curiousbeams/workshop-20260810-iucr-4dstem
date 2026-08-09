@@ -59,9 +59,7 @@ Depending on the type of assumptions we make for the scattering physics, we are 
 Section 6 of the `quantEM` workflow notebook runs an iterative `PtychoLite` reconstruction of the same gold nanoparticle dataset, and section 7 compares it against the direct result:  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/quantem_03_ptycho_experimental_workflow.ipynb) **Gold nanoparticle reconstruction in `quantEM`**
 
-This notebook wants a GPU: in Colab, **Runtime → Change runtime type → T4 GPU**.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/quantem_04_deep_image_prior.ipynb) **Bonus: implicit object representations**. Replace the pixel grid with a small convolutional network that *generates* the object, and regularize the reconstruction through the structure of that network rather than through a smoothness penalty.
 
-If you finish early, or want to go further afterwards:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/quantem_04_deep_image_prior.ipynb) **Bonus: implicit object representations**. Replace the pixel grid with a small convolutional network that *generates* the object, and regularize the reconstruction through the structure of that network rather than through a smoothness penalty. Also needs a T4 GPU.
+These notebooks require a GPU: in Colab, **Runtime → Change runtime type → T4 GPU**.
 ```
