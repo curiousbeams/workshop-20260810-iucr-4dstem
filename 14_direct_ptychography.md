@@ -58,6 +58,13 @@ Try playing around with the sliders to see if you can recover the residual aberr
 :::
 
 ```{attention} Try it yourself!
-Sections 1 to 5 of the `quantEM` workflow notebook cover calibration, virtual imaging, and direct ptychography on an experimental gold nanoparticle dataset, including the hyperparameter search and reconstruction refinement:  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/quantem_XX_ptycho_experimental_workflow.ipynb) **Gold nanoparticle reconstruction in `quantEM`**
+Two notebooks on simulated data, where the answer is known:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/quantem_01_direct_ptychography_kernels.ipynb) **Direct ptychography kernels**: reconstruct one SrTiO$_3$ dataset with all five deconvolution kernels, see how aberrations and dose separate them, and recover resolution from a sub-sampled scan with `upsampling_factor`.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/quantem_02_hyperparameter_optimization.ipynb) **Estimating hyperparameters**: the aberrations and scan rotation are never known on a real microscope. Grid search, Bayesian optimization, and two least-squares fits, compared on the same dataset.
+
+Then the same workflow end-to-end on experimental data, sections 1 to 5:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/quantem_03_ptycho_experimental_workflow.ipynb) **Gold nanoparticle reconstruction in `quantEM`**
 ```

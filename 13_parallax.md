@@ -63,3 +63,8 @@ More generally, the lateral shifts $\vec{w}(\bm{k})$ are given by the gradient o
 :name: parallax_shifts_interactive
 :placeholder: ./figures/parallax_shifts_placeholder.png
 :::
+
+```{attention} Try it yourself!
+The `'prlx'` deconvolution kernel is tilt-corrected bright field, and fitting the aberration surface from measured virtual bright-field shifts is exactly the cross-correlation method of section 7 in:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/quantem_02_hyperparameter_optimization.ipynb) **Estimating hyperparameters in `quantEM`**
+```
