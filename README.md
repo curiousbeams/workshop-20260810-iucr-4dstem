@@ -35,3 +35,4 @@ Each notebook downloads its own dataset from Google Drive with `gdown`, so parti
 | `quantem_01_direct_ptychography_kernels` | Direct phase retrieval |
 | `quantem_02_hyperparameter_optimization` | Direct phase retrieval |
 | `quantem_03_ptycho_experimental_workflow` | Iterative phase retrieval (needs a T4 GPU runtime) |
+| `quantem_04_deep_image_prior` | Iterative phase retrieval, bonus (needs a T4 GPU runtime) |

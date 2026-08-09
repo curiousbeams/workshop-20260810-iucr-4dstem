@@ -60,4 +60,8 @@ Section 6 of the `quantEM` workflow notebook runs an iterative `PtychoLite` reco
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/quantem_03_ptycho_experimental_workflow.ipynb) **Gold nanoparticle reconstruction in `quantEM`**
 
 This notebook wants a GPU: in Colab, **Runtime → Change runtime type → T4 GPU**.
+
+If you finish early, or want to go further afterwards:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/curiousbeams/workshop-20260810-iucr-4dstem/blob/main/notebooks/try-it-yourself/quantem_04_deep_image_prior.ipynb) **Bonus: implicit object representations**. Replace the pixel grid with a small convolutional network that *generates* the object, and regularize the reconstruction through the structure of that network rather than through a smoothness penalty. Also needs a T4 GPU.
 ```
