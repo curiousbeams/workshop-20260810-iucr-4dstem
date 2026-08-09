@@ -25,9 +25,9 @@ The notebooks that generate them are in the [Interactive Widgets](./notebooks/01
 When you first load a page, each live figure shows a static placeholder image so that the page is useful even offline.
 To make it interactive:
 
-1. Click the **compute button** on each figure.
+1. Click the **green play button** on each figure.
 2. This spins up a cloud kernel via [Binder](https://mybinder.org), built from the `Dockerfile` and `requirements.in` in this repository, so the environment matches ours exactly.
-3. Wait for the connection indicator to turn green, then press the run button on a figure. The placeholder is replaced by the live widget.
+3. Wait for the connection indicator to stop spinning, then press the run button on the top-right. The placeholder is replaced by the live widget.
 
 Once a figure is live, the sliders, toggles and click-to-position controls actually re-run the underlying simulation or reconstruction.
 This is the whole point: rather than showing you a figure of what happens when the convergence angle doubles, we change it and look.
@@ -74,4 +74,4 @@ npm install -g mystmd
 myst start
 ```
 
-The hands-on Colab notebooks download their datasets at runtime, so they work locally too, provided you have an internet connection the first time you run them.
+The hands-on Colab notebooks download their datasets at runtime, so they should work locally too, provided you have an internet connection the first time you run them.

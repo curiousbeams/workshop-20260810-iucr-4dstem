@@ -10,7 +10,7 @@ numbering:
 | --- | --- | --- | --- |
 | 8:30 – 9:00 | Welcome and set up | All | Slides |
 | 9:00 – 9:15 | [Interactive Python computing](./00c_getting-started.md) and the [software ecosystem](./00d_software-ecosystem.md) | Georgios | Walkthrough |
-| 9:15 – 9:45 | [S/TEM principles](./01_stem_measurements.md): [atomic models](./02_atomic_models.md), [scattering potentials](./03_scattering_potentials.md), [electron wavefunctions](./04_electron_wavefunctions.md) | Georgios | Interactive figures |
+| 9:15 – 9:45 | [S/TEM principles](./01_stem_measurements.md): [atomic models](./02_atomic_models.md), [scattering potentials](./03_scattering_potentials.md), [electron wavefunctions](./04_electron_wavefunctions.md) | Georgios & Stephanie | Interactive figures + Slides |
 | 9:45 – 10:45 | [Multislice simulations](./05_multislice_algorithm.md) with `abTEM`: the [PRISM algorithm](./06_prism_algorithm.md), [detectors and frozen phonons](./07_detectors_phonons.md) | Georgios | Interactive figures + Colab |
 | 10:45 – 11:15 | ☕ Coffee break | | |
 | 11:15 – 12:00 | [Calibration and Bragg disk detection](./08_calibration_disk_detection.md) with `py4DSTEM` | Stephanie | Interactive figures + Colab |

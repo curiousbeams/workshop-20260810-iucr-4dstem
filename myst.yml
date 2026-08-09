@@ -37,7 +37,7 @@ project:
   authors:
     - id: gvarnavides
       name: Georgios Varnavides
-      email: gvarnavides@berkeley.edu
+      email: g.varnavides@tudelft.nl
       orcid: 0000-0001-8338-3323
       affiliations:
         - id: miller
@@ -69,11 +69,29 @@ project:
         - Validation
         - Visualization
         - Writing - original draft
+    - id: cophus
+      name: Colin Ophus
+      email: cophus@stanford.edu
+      orcid: 0000-0003-2348-8558
+      affiliations:
+        - id: stanford
+          department: Department of Materials Science
+          institution: Stanford University
+          address: 475 Via Ortega, Stanford, CA 94305, USA
+          ror: 00f54p054
+      roles:
+        - Conceptualization
+        - Project administration
+        - Software
+        - Validation
+        - Visualization
+        - Writing - original draft
   funding:
     - statement: We thank the International Union of Crystallography for hosting this workshop.
       recipients:
         - gvarnavides
         - sribet
+        - cophus
   abbreviations:
     TEM: transmission electron microscopy
     HRTEM: high resolution transmission electron microscopy
