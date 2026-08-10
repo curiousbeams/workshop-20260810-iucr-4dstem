@@ -51,12 +51,47 @@ where $\mathbb{R}\left\{\cdot \right\}$ denotes taking the real-part of the comp
 Move the cursor over the left panel to place the probe and watch the CoM crosshairs in the diffraction pattern track the local potential gradient.
 Toggling "show reconstruction" reveals the reconstruction gradient $\vec{CoM}(\bm{R})$ accumulated over the full scan, and "integrate gradient" applies [](#fourier_integration) to recover the projected potential itself.
 
+
+`````{tab-set}
+
+````{tab-item} Interactive Widget
+
 ```{figure} #app:center_of_mass_imaging
 :name: fig_dpc
 :placeholder: ./figures/icom_placeholder.png
 
 Center-of-mass imaging of a gold nanoparticle. The left panel shows the complex exit wave over the sample, the middle panel the diffraction pattern at the probe position with the CoM marked by crosshairs, and the right panel the reconstruction accumulated over the full scan, either as the CoM gradient field or integrated into the projected potential.
 ```
+
+````
+
+````{tab-item} Convergence Angle Videos
+
+::::{grid} 1 3 3 3
+
+:::{grid-item}
+
+```{figure} ./figures/DPC_02mrads_scan_v01.mp4
+```
+:::
+
+:::{grid-item}
+
+```{figure} ./figures/DPC_06mrads_scan_v02.mp4
+```
+:::
+
+:::{grid-item}
+
+```{figure} ./figures/DPC_32mrads_scan_v04.mp4
+```
+:::
+
+::::
+
+````
+
+`````
 
 Two controls are worth exploring in [](#fig_dpc).
 The **convergence semi-angle** sets the probe size, and therefore the spatial resolution of the reconstruction: too small and the probe cannot resolve the atomic columns, too large and the CoM shift within the disk becomes hard to interpret.
